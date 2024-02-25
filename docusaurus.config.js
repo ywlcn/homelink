@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Home Page',
-  tagline: 'Ramee are cool',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   url: 'https://ywlcn.github.io/',
   baseUrl: '/homelink/',
   onBrokenLinks: 'throw',
@@ -58,12 +58,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ramee Home',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-
         items: [
           {
             type: 'doc',
@@ -71,12 +70,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-        //   {
-        //     type: 'doc',
-        //     docId: 'links',
-        //     position: 'left',
-        //     label: 'Links',
-        //   },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -85,7 +78,6 @@ const config = {
           },
         ],
       },
-
       footer: {
         style: 'dark',
         links: [
@@ -96,10 +88,6 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
-              {
-                label: 'Links',
-                to: '/link/intro',
-              },
             ],
           },
           {
@@ -107,15 +95,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
                 label: 'Discord',
-                href: 'https://Discord.com/',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
@@ -128,12 +116,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/ywlcn',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ramee Home, Inc. Built with Ramee.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
