@@ -10,6 +10,7 @@ sidebar_position: 5
 | [GMOあおそら(1回)](https://gmo-aozora.com)       | [りそな銀行](https://www.resonabank.co.jp/)   | [ChatGPT](https://chat.openai.com/)                   | [Github](https://github.com/ywlcn?tab=repositories) | [メルカリmercari](https://jp.mercari.com/)                  |
 |                                                  |                                               |                                                       |                                                     |                                                             |
 |                                                  |                                               |                                                       |                                                     |                                                             |
+<span style={{color: 'red'}}>赤文字</span>
 
 
 
